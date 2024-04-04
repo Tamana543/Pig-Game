@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="a dice game made by javascript, css and html, cooded by Tamana Farzami"
+    />
+    <link rel="shortcut icon" href="dice-4.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Pig Game</title>
+  </head>
+  <body>
+    <main>
+      <section class="player player--0 player--active">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0">43</p>
+        <h2 class="traphy">🏆</h2>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </section>
+      <section class="player player--1">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">24</p>
+        <h2 class="traphy">🏆</h2>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </section>
+      <img src="dice-4.png" alt="playing dice" class="dice" />
+      <button
+        class="btn btn--new"
+        title="Click or press n to start a new game "
+      >
+        🎮 New game
+      </button>
+      <button class="btn btn--roll" title="Click or press d to roll dice ">
+        🎲 Roll dice
+      </button>
+      <button
+        class="btn btn--hold"
+        title="Click or press h to hold your number "
+      >
+        😊 Hold
+      </button>
+      <h3 class="cooder">
+        Cooded By
+        <a
+          href="www.linkedin.com/in/tamana-farzami-"
+          alt="Tamana Farzami Linkdin Page"
+          title="contact me 👩‍💻"
+          >Tamana Farzami</a
+        >
+      </h3>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
